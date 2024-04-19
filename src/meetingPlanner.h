@@ -1,3 +1,6 @@
+#ifndef MEETING_PLANNER
+#define MEETING_PLANNER
+
 #include <iostream>
 #include <utility>
 #include <vector>
@@ -10,3 +13,5 @@ public:
 
     std::pair<int, int> plannMetting(const std::vector<std::pair<int,int>>& slotA, const std::vector<std::pair<int,int>>& slotB, int dur);
 };
+
+#endif // MEETING_PLANNER

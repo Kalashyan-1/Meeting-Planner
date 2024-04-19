@@ -3,7 +3,8 @@ project(Meeting-Planner)
 
 set(SOURCES 
     main.cpp
-    src/meetingPlanner.cpp)
+    src/meetingPlanner.cpp
+    test/meetingPlannerTest.cpp)
 
 add_executable(Meeting-Planner ${SOURCES})
 
